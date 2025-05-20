@@ -27,7 +27,6 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   table: {
-    display: 'table',
     width: 'auto',
     borderStyle: 'solid',
     borderWidth: 1,
@@ -35,6 +34,8 @@ const styles = StyleSheet.create({
   },
   tableRow: {
     flexDirection: 'row',
+    borderBottomWidth: 1,
+    borderBottomColor: '#bfbfbf',
   },
   tableHeader: {
     backgroundColor: '#f0f0f0',
@@ -42,8 +43,8 @@ const styles = StyleSheet.create({
   },
   tableCell: {
     padding: 5,
-    borderWidth: 1,
-    borderColor: '#bfbfbf',
+    borderRightWidth: 1,
+    borderRightColor: '#bfbfbf',
     flex: 1,
   },
 });
